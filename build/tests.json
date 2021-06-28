@@ -1,0 +1,60 @@
+{
+  "contracts": {
+    "Exchange": "a00c600f2b0879795793599f7531244f90e88cf7",
+    "Token": "2c80160c0b8fd2cf3949a053deb35964c227bf0a"
+  },
+  "tests": {
+    "tests/test_liquidity.py": {
+      "coverage": false,
+      "isolated": [
+        "Exchange",
+        "Token"
+      ],
+      "results": ".",
+      "sha1": "61f4ee8624e198666a8b48f059d427e207377d79",
+      "txhash": [
+        "5c3f9a60ac1f20d254771f7f8b2c4fda5993afa9"
+      ]
+    },
+    "tests/test_mint.py": {
+      "coverage": false,
+      "isolated": [
+        "Token"
+      ],
+      "results": ".",
+      "sha1": "355979d67f62be9ba8162d8a2693952ef2d7e52a",
+      "txhash": []
+    }
+  },
+  "tx": {
+    "5c3f9a60ac1f20d254771f7f8b2c4fda5993afa9": {
+      "Exchange": {
+        "4": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            17,
+            18,
+            21,
+            22
+          ],
+          [
+            19,
+            20
+          ]
+        ]
+      },
+      "Token": {
+        "5": [
+          [],
+          [],
+          []
+        ]
+      }
+    }
+  }
+}
